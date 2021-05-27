@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="79a2d356-beee-11eb-bb10-238be0984583">
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="79a2d358-beee-11eb-bb10-238be0984583" type="resource" guid="1ec6bd95-bed3-11eb-a569-918f3c9a692e" />
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="79a34889-beee-11eb-bb10-238be0984583" type="literal">RootClassInstance</object>
+  </predicate>
+  <predicate guid="a9150236-bee0-11eb-a219-6bb4878d547b">
+    <object statement-guid="79a4a81a-beee-11eb-bb10-238be0984583" type="resource" guid="5947652a-bed3-11eb-a569-918f3c9a692e" />
+  </predicate>
+  <predicate guid="b8788625-bee0-11eb-a219-6bb4878d547b">
+    <object statement-guid="79a5445d-beee-11eb-bb10-238be0984583" type="literal">false</object>
+  </predicate>
+  <predicate guid="bf5a73e9-bee0-11eb-a219-6bb4878d547b">
+    <object statement-guid="79a4f63c-beee-11eb-bb10-238be0984583" type="literal">init value</object>
+  </predicate>
+  <predicate guid="d0616eb2-bee0-11eb-a219-6bb4878d547b">
+    <object statement-guid="79a4a81b-beee-11eb-bb10-238be0984583" type="resource" guid="d7d7a3b4-b9a5-11df-a65e-dfd387640d45" />
+  </predicate>
+</resource>
+
