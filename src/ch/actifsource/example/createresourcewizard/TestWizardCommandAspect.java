@@ -6,6 +6,7 @@ import ch.actifsource.core.PackagedResource;
 import ch.actifsource.core.job.IReadJobExecutor;
 import ch.actifsource.core.set.INodeList;
 import ch.actifsource.core.update.IModifiable;
+import ch.actifsource.core.util.LiteralUtil;
 import ch.actifsource.ui.wizard.newresource.aspect.IWizardCommandAspect;
 import ch.actifsource.util.collection.IMap;
 import ch.actifsource.util.filter.IFilter;
@@ -38,8 +39,11 @@ public class TestWizardCommandAspect implements IWizardCommandAspect {
    */
   @CheckForNull
   public Boolean isEnabled(IReadJobExecutor executor, String fieldName, IMap<String, INodeList> fieldNameToValuesMap) {
-    // TODO User implementation
-    return null;
+    if (!fieldName.equals("BooleanLiteralRangeTest")) return null;
+    
+    INodeList nodes = fieldNameToValuesMap.get("BooleanAttributeRangeTest");
+    if (nodes == null) return false;
+    return LiteralUtil.getBooleanValue(nodes.getFirstOrNull(), true);
   }
   
   /**
